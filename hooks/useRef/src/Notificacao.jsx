@@ -18,7 +18,7 @@ function Notificacao() {
 
   return (
     <div>
-      {notificacao}
+      <p>{notificacao}</p>
       <button style={{ display: 'block' }} onClick={handleClick}>
         {contar}
       </button>
